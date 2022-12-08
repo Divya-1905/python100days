@@ -1,1 +1,0 @@
-#iteraed is check one by one 
