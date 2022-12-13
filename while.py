@@ -15,5 +15,8 @@
 while True:
     user = input('who are you:')
     if(user == 'student'):
-        break
+        continue
+    else:
+     user =='admin'
+     print('hai admin')
         
