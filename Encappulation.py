@@ -16,5 +16,5 @@ print(player2['age'])  # this [] way taken value of key
 i f bundling data and methods within a single unit. So,
 for example, when you create a class, it means you are implementing encapsulation
 '''
-player1.fight ='dsdf'
+player1.fight ='hai'
 print(player1.fight)
