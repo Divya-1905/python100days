@@ -11,11 +11,13 @@ class student():
         self.address = address
         self.pincode = 62505
         self.phonenumber = 45352398
+        self.standard = 3
+        
          # the defult value assign parameter is not called 
         
 
     def run(self):
-        print(f'name is {self.name},registernumber is{self.registernumber},section is {self.section},address is {self.address},pincode is {self.pincode} the phone number is {self.phonenumber}')
+        print(f'name is {self.name},registernumber is{self.registernumber},section is {self.section},address is {self.address},pincode is {self.pincode} the phone number is {self.phonenumber}, i am studying in {self.standard}')
         
 class regbook(student):
     def __init__(self, name, section, registernumber,address):
@@ -24,6 +26,7 @@ class regbook(student):
         self.registernumber = registernumber
         super().__init__(name,section,registernumber,address)
         self.pincode = 625034
+        
 take = student('rio','e',19034,'madurai')  
 print(take.name) 
 take.run()
