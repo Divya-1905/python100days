@@ -1,5 +1,5 @@
 class players():
-    def __init__(self,name,age):
+    def __init__(self,name,age): # this self value to called the full class value 
         self.name = name
         self.age = age
         
@@ -7,6 +7,7 @@ class players():
         print('run')
     def fight(self):
         print(f'my name is{self.name} ,and my age is{self.age} year old')
+        #binding data and variables inside a class
 player1 = players('dfdgf',12) 
 print(player1.age) 
 player2 = {'name':'sdf','age':21}
