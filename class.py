@@ -35,6 +35,7 @@ number = student('user','f',180336,'dsfs')
 number.run() 
 y = regbook('ssd','er',5689,'fdge')
 print(y.pincode)
+
         
 
 
