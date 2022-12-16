@@ -32,6 +32,19 @@ number = student('user','f',180336,'dsfs')
 number.run() 
 y = regbook('ssd','er',5689,'fdge')
 print(y.pincode)
-        
+
+
+class libiary():
+    def __init__(self,name,type):
+        self.name = name
+        self.type = type
+    def run(self):
+        print(f'this a {self.name},this type is {self.type}')
+
+
+y = libiary('bio','science')
+y.run()
+
+
 
 

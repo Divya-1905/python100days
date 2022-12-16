@@ -12,6 +12,7 @@
 #   user =   input('who are you:')
 #   if(user =='admin'):
 #     break       
+
 while True:
     user = input('who are you:')
     if(user == 'student'):
@@ -19,4 +20,3 @@ while True:
     else:
      user =='admin'
      print('hai admin')
-        
