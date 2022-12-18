@@ -36,22 +36,6 @@ number.run()
 y = regbook('ssd','er',5689,'fdge')
 print(y.pincode)
 
-<<<<<<< HEAD
-
-class libiary():
-    def __init__(self,name,type):
-        self.name = name
-        self.type = type
-    def run(self):
-        print(f'this a {self.name},this type is {self.type}')
-
-
-y = libiary('bio','science')
-y.run()
-
-
-=======
         
->>>>>>> 6c2a0ec6361c38588c37004503afed9d1e74d2bf
 
 
